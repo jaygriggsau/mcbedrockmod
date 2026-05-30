@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Exploding Zombies",
+    "description": "Makes zombies explode when they die.",
+    "uuid": "8f3a2b1c-7d4e-4f6a-9b2c-1e5d6a7f8b90",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c4e9d8a7-6b5f-4c3d-8e2a-9f1b0c7d6e5a",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    }
+  ]
+}
